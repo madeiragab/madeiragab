@@ -1,0 +1,36 @@
+name: Atualizar cards do perfil
+
+# Todo dia às 12:34 (horário de Brasília = 15:34 UTC).
+# Também pode ser disparado manualmente na aba Actions.
+on:
+  schedule:
+    - cron: '34 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Gerar os cards SVG
+        run: node scripts/gerar-cards.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: madeiragab
+
+      - name: Commitar se algo mudou
+        run: |
+          git config user.name "Gabriel Madeira"
+          git config user.email "gabrielmadeira1504@gmail.com"
+          git add assets/
+          if git diff --cached --quiet; then
+            echo "Nada mudou hoje — nenhum commit necessário."
+          else
+            git commit -m "chore: atualização diária dos cards do perfil ($(date -u +%Y-%m-%d))"
+            git push
+          fi
