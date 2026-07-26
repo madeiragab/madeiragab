@@ -11,6 +11,7 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 - 🧠 **Foco:** Modelagem de domínio, Django, PostgreSQL e documentação técnica
 - 🔍 **Curiosidade:** já fiz jogo em Pygame, simulador de IA em Godot e engenharia reversa de console portátil
 - 🤖 **No dia a dia:** uso IA como ferramenta de trabalho, sempre com revisão em cima
+- 🌎 **Idiomas:** Inglês (Avançado) | Espanhol (Básico)
 
 <br>
 
@@ -61,18 +62,15 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 <a href="https://madeiragab.github.io">
   <img src="https://img.shields.io/badge/PORTF%C3%93LIO-FF2E3F?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
+<a href="https://www.linkedin.com/in/gabriel-madeira-b19100209/">
+  <img src="https://img.shields.io/badge/LINKEDIN-FF2E3F?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 <a href="mailto:gabrielmadeira1504@gmail.com">
   <img src="https://img.shields.io/badge/EMAIL-0A0A0A?style=for-the-badge&logo=gmail&logoColor=FF2E3F" />
 </a>
 <a href="https://github.com/madeiragab">
   <img src="https://img.shields.io/badge/GITHUB-0A0A0A?style=for-the-badge&logo=github&logoColor=FFFFFF" />
 </a>
-
-<!-- LINKEDIN: quando tiver o link, descomente as 3 linhas abaixo e troque SEU-USUARIO
-<a href="https://linkedin.com/in/SEU-USUARIO">
-  <img src="https://img.shields.io/badge/LINKEDIN-FF2E3F?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
--->
 
 </div>
 
