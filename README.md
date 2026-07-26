@@ -36,19 +36,18 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 
 ## <img src="https://img.shields.io/badge/-informational?style=flat-square&color=FF2E3F" height="18"> Projetos em destaque:
 
+| Projeto | O que é | Stack |
+|---|---|---|
+| **[Simulador Tático de IA](https://github.com/madeiragab/tcc-simulador-ia)** | TCC: ambiente para medir a qualidade estratégica de agentes de IA — não só se vencem, mas quanto processamento gastam. +14.000 partidas com teste de significância. | `Godot` `GDScript` `Python` |
+| **[Social Network](https://github.com/madeiragab/social-network)** | API REST backend-first, com domínio modelado em UML antes do código e regras de negócio garantidas no próprio banco. | `Django` `DRF` `PostgreSQL` `React` |
+| **[RPG Panel](https://github.com/madeiragab/rpg-panel)** | Painel web para campanhas de RPG de mesa, com controle de acesso por papéis e inventário por slots. | `Django` `Python` `JavaScript` |
+| **[Guns and Boots](https://github.com/madeiragab/Guns-and-boots)** | Jogo 2D por turnos com mecânica de superaquecimento, IA por regras e lógica totalmente desacoplada da renderização. | `Python` `Pygame` |
+| **[GA36-MB Autopsy](https://github.com/madeiragab/darkos-ga36-port)** | Engenharia reversa e preservação de um console portátil clone que mente sobre o próprio hardware. | `Linux` `Reverse Engineering` |
+
 <div align="center">
 
-<a href="https://github.com/madeiragab/tcc-simulador-ia">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=madeiragab&repo=tcc-simulador-ia&title_color=FF2E3F&icon_color=FF2E3F&text_color=FFFFFF&bg_color=0A0A0A&border_color=2A2A2A" />
-</a>
-<a href="https://github.com/madeiragab/social-network">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=madeiragab&repo=social-network&title_color=FF2E3F&icon_color=FF2E3F&text_color=FFFFFF&bg_color=0A0A0A&border_color=2A2A2A" />
-</a>
-<a href="https://github.com/madeiragab/rpg-panel">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=madeiragab&repo=rpg-panel&title_color=FF2E3F&icon_color=FF2E3F&text_color=FFFFFF&bg_color=0A0A0A&border_color=2A2A2A" />
-</a>
-<a href="https://github.com/madeiragab/Guns-and-boots">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=madeiragab&repo=Guns-and-boots&title_color=FF2E3F&icon_color=FF2E3F&text_color=FFFFFF&bg_color=0A0A0A&border_color=2A2A2A" />
+<a href="https://madeiragab.github.io">
+  <img src="https://img.shields.io/badge/VER%20PORTF%C3%93LIO%20COMPLETO-FF2E3F?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 
 </div>
@@ -60,7 +59,7 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 <div align="center">
 
 <a href="https://madeiragab.github.io">
-  <img src="https://img.shields.io/badge/PORTFÓLIO-FF2E3F?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/PORTF%C3%93LIO-FF2E3F?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
 <a href="mailto:gabrielmadeira1504@gmail.com">
   <img src="https://img.shields.io/badge/EMAIL-0A0A0A?style=for-the-badge&logo=gmail&logoColor=FF2E3F" />
@@ -69,7 +68,7 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
   <img src="https://img.shields.io/badge/GITHUB-0A0A0A?style=for-the-badge&logo=github&logoColor=FFFFFF" />
 </a>
 
-<!-- Quando tiver o link do LinkedIn, troque a URL abaixo e apague estas duas linhas de comentário.
+<!-- LINKEDIN: quando tiver o link, descomente as 3 linhas abaixo e troque SEU-USUARIO
 <a href="https://linkedin.com/in/SEU-USUARIO">
   <img src="https://img.shields.io/badge/LINKEDIN-FF2E3F?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
@@ -83,18 +82,20 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=madeiragab&show_icons=true&count_private=true&include_all_commits=true&title_color=FF2E3F&icon_color=FF2E3F&text_color=FFFFFF&bg_color=0A0A0A&border_color=2A2A2A" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=madeiragab&layout=compact&langs_count=8&title_color=FF2E3F&text_color=FFFFFF&bg_color=0A0A0A&border_color=2A2A2A" />
+<img src="./assets/stats.svg" height="255" alt="Estatísticas do GitHub" />
+<img src="./assets/languages.svg" height="255" alt="Linguagens mais usadas" />
 
 <br><br>
 
-<img height="165" src="https://streak-stats.demolab.com?user=madeiragab&background=0A0A0A&border=2A2A2A&stroke=2A2A2A&ring=FF2E3F&fire=FF2E3F&currStreakNum=FFFFFF&currStreakLabel=FF2E3F&sideNums=FFFFFF&sideLabels=FFFFFF&dates=9A9A9A" />
+<img height="180" src="https://streak-stats.demolab.com?user=madeiragab&background=0A0A0A&border=2A2A2A&stroke=2A2A2A&ring=FF2E3F&fire=FF2E3F&currStreakNum=FFFFFF&currStreakLabel=FF2E3F&sideNums=FFFFFF&sideLabels=FFFFFF&dates=9A9A9A&excludeDaysLabel=9A9A9A" alt="Sequência de contribuições" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=madeiragab&bg_color=0A0A0A&color=FFFFFF&line=FF2E3F&point=FFFFFF&area=true&area_color=FF2E3F&hide_border=false&border_color=2A2A2A&custom_title=Atividade%20de%20contribui%C3%A7%C3%B5es" width="98%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=madeiragab&bg_color=0A0A0A&color=FFFFFF&line=FF2E3F&point=FFFFFF&area=true&area_color=FF2E3F&hide_border=false&border_color=2A2A2A&custom_title=Atividade%20de%20contribui%C3%A7%C3%B5es" width="98%" alt="Gráfico de atividade" />
 
 </div>
+
+<sub>Os dois primeiros cards são gerados por [um script próprio](scripts/gerar-cards.mjs) e atualizados todo dia por [GitHub Actions](.github/workflows/atualizar-cards.yml) — sem depender de serviço externo que sai do ar.</sub>
 
 <br>
 
