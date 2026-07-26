@@ -7,7 +7,7 @@
 Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no IFSulDeMinas e me especializo em **desenvolvimento backend**. Construo sistemas funcionais, MVPs e APIs bem modeladas — com a regra de negócio no servidor, documentada e testável.
 
 - 🎓 **Formação:** Ciência da Computação — IFSulDeMinas *(cursando)*
-- 💼 **Atualmente:** estagiário bolsista no Laboratório de Redes de Computadores — IFSulDeMinas, Campus Muzambinho
+- 💼 **Atualmente:** estagiário bolsista no Laboratório de Redes de Computadores (IFSulDeMinas — Campus Muzambinho), em um projeto de reformulação para recolocar o laboratório em funcionamento
 - 🎯 **Objetivo:** Desenvolvimento Backend · APIs REST · Integrações
 - 🧠 **Foco:** Modelagem de domínio, Django, PostgreSQL e documentação técnica
 - 🔍 **Curiosidade:** já fiz jogo em Pygame, simulador de IA em Godot e engenharia reversa de console portátil
