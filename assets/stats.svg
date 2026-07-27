@@ -16,17 +16,17 @@
         fill="#FFFFFF" text-anchor="end">16</text>
   <text x="25" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Commits (último ano)</text>
   <text x="435" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">150</text>
+        fill="#FFFFFF" text-anchor="end">176</text>
   <text x="25" y="142" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Pull requests</text>
   <text x="435" y="142" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">7</text>
+        fill="#FFFFFF" text-anchor="end">12</text>
   <text x="25" y="172" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Issues abertas</text>
   <text x="435" y="172" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">0</text>
   <text x="25" y="202" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Repositórios públicos</text>
   <text x="435" y="202" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">8</text>
+        fill="#FFFFFF" text-anchor="end">9</text>
   <text x="25" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Contribuições (ano)</text>
   <text x="435" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">165</text>
+        fill="#FFFFFF" text-anchor="end">253</text>
 </svg>
