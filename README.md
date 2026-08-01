@@ -98,11 +98,7 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 
 <br>
 
-<div align="center">
 
-> *"Curiosidade como motor, código como ferramenta e documentação como religião."*
-
-</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2E3F,50:C1121F,100:0A0A0A&height=120&section=footer" width="100%" />
 
