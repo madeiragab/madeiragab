@@ -1,3 +1,5 @@
+> 🇧🇷 **Português** · 🇬🇧 [English](README.en.md)
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:C1121F,100:FF2E3F&height=200&section=header&text=Gabriel%20Madeira&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Backend%20Developer%20%C2%B7%20Django%20%C2%B7%20PostgreSQL%20%C2%B7%20APIs%20REST&descSize=17&descAlignY=57" width="100%" />
 
 # <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hello World!
