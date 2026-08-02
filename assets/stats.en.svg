@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="270" viewBox="0 0 460 270" role="img" aria-label="Estatísticas do GitHub de madeiragab">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="270" viewBox="0 0 460 270" role="img" aria-label="GitHub statistics for madeiragab">
 
   <defs>
     <linearGradient id="borda" x1="0" y1="0" x2="1" y2="1">
@@ -11,22 +11,22 @@
   <text x="25" y="35" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="16" font-weight="700"
         fill="#FF2E3F">madeiragab :: github stats</text>
   <rect x="25" y="45" width="34" height="2.5" rx="1.25" fill="#FF2E3F"/>
-  <text x="25" y="82" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Estrelas recebidas</text>
+  <text x="25" y="82" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Stars earned</text>
   <text x="435" y="82" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">16</text>
-  <text x="25" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Commits (último ano)</text>
+  <text x="25" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Commits (last year)</text>
   <text x="435" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">219</text>
   <text x="25" y="142" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Pull requests</text>
   <text x="435" y="142" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">12</text>
-  <text x="25" y="172" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Issues abertas</text>
+  <text x="25" y="172" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Issues opened</text>
   <text x="435" y="172" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">0</text>
-  <text x="25" y="202" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Repositórios públicos</text>
+  <text x="25" y="202" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Public repositories</text>
   <text x="435" y="202" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">9</text>
-  <text x="25" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Contribuições (ano)</text>
+  <text x="25" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Contributions (year)</text>
   <text x="435" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">296</text>
 </svg>

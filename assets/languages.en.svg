@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="294" viewBox="0 0 460 294" role="img" aria-label="Linguagens mais usadas por madeiragab">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="294" viewBox="0 0 460 294" role="img" aria-label="Most used languages by madeiragab">
 
   <defs>
     <linearGradient id="borda" x1="0" y1="0" x2="1" y2="1">
@@ -9,7 +9,7 @@
   <rect x="0.5" y="0.5" width="459" height="293" rx="12"
         fill="#0A0A0A" stroke="url(#borda)" stroke-width="1.5"/>
   <text x="25" y="35" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="16" font-weight="700"
-        fill="#FF2E3F">linguagens mais usadas</text>
+        fill="#FF2E3F">most used languages</text>
   <rect x="25" y="45" width="34" height="2.5" rx="1.25" fill="#FF2E3F"/>
   <text x="25" y="76" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">HTML</text>
   <text x="435" y="76" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
