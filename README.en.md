@@ -83,8 +83,8 @@ I'm **Gabriel Madeira**, a **Computer Science** student at IFSulDeMinas speciali
 
 <div align="center">
 
-<img src="./assets/stats.svg" height="255" alt="GitHub statistics" />
-<img src="./assets/languages.svg" height="255" alt="Most used languages" />
+<img src="./assets/stats.en.svg" height="255" alt="GitHub statistics" />
+<img src="./assets/languages.en.svg" height="255" alt="Most used languages" />
 
 <br><br>
 
