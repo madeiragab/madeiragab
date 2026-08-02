@@ -15,22 +15,22 @@
   <text x="435" y="76" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
         text-anchor="end">83.0%</text>
   <rect x="25" y="83" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="83" width="340.5" height="7" rx="3.5" fill="#e34c26"/>
+  <rect x="25" y="83" width="340.2" height="7" rx="3.5" fill="#e34c26"/>
   <text x="25" y="110" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">Python</text>
   <text x="435" y="110" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
         text-anchor="end">9.0%</text>
   <rect x="25" y="117" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="117" width="36.8" height="7" rx="3.5" fill="#3572A5"/>
+  <rect x="25" y="117" width="37.1" height="7" rx="3.5" fill="#3572A5"/>
   <text x="25" y="144" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">JavaScript</text>
   <text x="435" y="144" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
         text-anchor="end">3.4%</text>
   <rect x="25" y="151" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="151" width="14.0" height="7" rx="3.5" fill="#f1e05a"/>
+  <rect x="25" y="151" width="14.1" height="7" rx="3.5" fill="#f1e05a"/>
   <text x="25" y="178" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">GDScript</text>
   <text x="435" y="178" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
         text-anchor="end">2.9%</text>
   <rect x="25" y="185" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="185" width="11.9" height="7" rx="3.5" fill="#355570"/>
+  <rect x="25" y="185" width="11.8" height="7" rx="3.5" fill="#355570"/>
   <text x="25" y="212" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">CSS</text>
   <text x="435" y="212" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
         text-anchor="end">1.4%</text>
