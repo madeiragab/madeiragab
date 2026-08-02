@@ -121,21 +121,60 @@ function moldura(largura, altura, titulo) {
   <rect x="25" y="45" width="34" height="2.5" rx="1.25" fill="${C.red}"/>`;
 }
 
+/* ---------- textos por idioma ----------
+   Os cards são gerados em PT e EN: o README.md usa os arquivos sem
+   sufixo, o README.en.md usa os terminados em .en.svg */
+const TEXTOS = {
+  pt: {
+    stats: {
+      aria: `Estatísticas do GitHub de ${USER}`,
+      titulo: `${USER} :: github stats`,
+      estrelas: 'Estrelas recebidas',
+      commits: 'Commits (último ano)',
+      prs: 'Pull requests',
+      issues: 'Issues abertas',
+      repos: 'Repositórios públicos',
+      contribuicoes: 'Contribuições (ano)',
+    },
+    langs: {
+      aria: `Linguagens mais usadas por ${USER}`,
+      titulo: 'linguagens mais usadas',
+    },
+  },
+  en: {
+    stats: {
+      aria: `GitHub statistics for ${USER}`,
+      titulo: `${USER} :: github stats`,
+      estrelas: 'Stars earned',
+      commits: 'Commits (last year)',
+      prs: 'Pull requests',
+      issues: 'Issues opened',
+      repos: 'Public repositories',
+      contribuicoes: 'Contributions (year)',
+    },
+    langs: {
+      aria: `Most used languages by ${USER}`,
+      titulo: 'most used languages',
+    },
+  },
+};
+
 /* ---------- card 1: estatísticas ---------- */
-const linhas = [
-  ['Estrelas recebidas', stars],
-  ['Commits (último ano)', cc.totalCommitContributions],
-  ['Pull requests', cc.totalPullRequestContributions],
-  ['Issues abertas', cc.totalIssueContributions],
-  ['Repositórios públicos', u.repositories.totalCount],
-  ['Contribuições (ano)', cc.contributionCalendar.totalContributions],
-];
+function cardStats(t) {
+  const linhas = [
+    [t.estrelas, stars],
+    [t.commits, cc.totalCommitContributions],
+    [t.prs, cc.totalPullRequestContributions],
+    [t.issues, cc.totalIssueContributions],
+    [t.repos, u.repositories.totalCount],
+    [t.contribuicoes, cc.contributionCalendar.totalContributions],
+  ];
 
-const L1 = 460;
-const A1 = 90 + linhas.length * 30;
+  const L1 = 460;
+  const A1 = 90 + linhas.length * 30;
 
-const svgStats = `<svg xmlns="http://www.w3.org/2000/svg" width="${L1}" height="${A1}" viewBox="0 0 ${L1} ${A1}" role="img" aria-label="Estatísticas do GitHub de ${esc(USER)}">
-${moldura(L1, A1, `${USER} :: github stats`)}
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${L1}" height="${A1}" viewBox="0 0 ${L1} ${A1}" role="img" aria-label="${esc(t.aria)}">
+${moldura(L1, A1, t.titulo)}
 ${linhas.map(([rotulo, valor], i) => {
   const y = 82 + i * 30;
   return `  <text x="25" y="${y}" font-family="${FONTE}" font-size="13" fill="${C.dim}">${esc(rotulo)}</text>
@@ -144,13 +183,15 @@ ${linhas.map(([rotulo, valor], i) => {
 }).join('\n')}
 </svg>
 `;
+}
 
 /* ---------- card 2: linguagens ---------- */
-const L2 = 460;
-const A2 = 90 + linguas.length * 34;
+function cardLangs(t) {
+  const L2 = 460;
+  const A2 = 90 + linguas.length * 34;
 
-const svgLangs = `<svg xmlns="http://www.w3.org/2000/svg" width="${L2}" height="${A2}" viewBox="0 0 ${L2} ${A2}" role="img" aria-label="Linguagens mais usadas por ${esc(USER)}">
-${moldura(L2, A2, 'linguagens mais usadas')}
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${L2}" height="${A2}" viewBox="0 0 ${L2} ${A2}" role="img" aria-label="${esc(t.aria)}">
+${moldura(L2, A2, t.titulo)}
 ${linguas.map((l, i) => {
   const y = 76 + i * 34;
   const larguraBarra = L2 - 50;
@@ -163,10 +204,14 @@ ${linguas.map((l, i) => {
 }).join('\n')}
 </svg>
 `;
+}
 
 /* ---------- grava ---------- */
 await mkdir('assets', { recursive: true });
-await writeFile('assets/stats.svg', svgStats);
-await writeFile('assets/languages.svg', svgLangs);
 
-console.log(`OK — ${stars} estrelas, ${cc.totalCommitContributions} commits, ${linguas.length} linguagens.`);
+await writeFile('assets/stats.svg', cardStats(TEXTOS.pt.stats));
+await writeFile('assets/languages.svg', cardLangs(TEXTOS.pt.langs));
+await writeFile('assets/stats.en.svg', cardStats(TEXTOS.en.stats));
+await writeFile('assets/languages.en.svg', cardLangs(TEXTOS.en.langs));
+
+console.log(`OK — ${stars} estrelas, ${cc.totalCommitContributions} commits, ${linguas.length} linguagens. 4 cards gravados (pt + en).`);
