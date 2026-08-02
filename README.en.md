@@ -100,10 +100,4 @@ I'm **Gabriel Madeira**, a **Computer Science** student at IFSulDeMinas speciali
 
 <br>
 
-<div align="center">
-
-> *"Curiosity as the engine, code as the tool, documentation as religion."*
-
-</div>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2E3F,50:C1121F,100:0A0A0A&height=120&section=footer" width="100%" />
