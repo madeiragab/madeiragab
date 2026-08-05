@@ -24,13 +24,17 @@ jobs:
           GH_USER: madeiragab
 
       - name: Commitar se algo mudou
+        # Autoria é do bot, não minha. Este commit é o Actions redesenhando um
+        # SVG sozinho — assiná-lo com o meu nome e o meu e-mail enchia o meu
+        # gráfico de contribuições de atividade que eu não fiz, e ainda
+        # empurrava o trabalho de verdade para baixo do ruído diário.
         run: |
-          git config user.name "Gabriel Madeira"
-          git config user.email "gabrielmadeira1504@gmail.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/
           if git diff --cached --quiet; then
             echo "Nada mudou hoje — nenhum commit necessário."
           else
-            git commit -m "chore: atualização diária dos cards do perfil ($(date -u +%Y-%m-%d))"
+            git commit -m "chore(bot): redesenha os cards do perfil ($(date -u +%Y-%m-%d))"
             git push
           fi
