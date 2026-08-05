@@ -13,13 +13,13 @@
   <rect x="25" y="45" width="34" height="2.5" rx="1.25" fill="#FF2E3F"/>
   <text x="25" y="82" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Estrelas recebidas</text>
   <text x="435" y="82" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">16</text>
+        fill="#FFFFFF" text-anchor="end">17</text>
   <text x="25" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Commits (último ano)</text>
   <text x="435" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">231</text>
+        fill="#FFFFFF" text-anchor="end">273</text>
   <text x="25" y="142" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Pull requests</text>
   <text x="435" y="142" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">12</text>
+        fill="#FFFFFF" text-anchor="end">21</text>
   <text x="25" y="172" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Issues abertas</text>
   <text x="435" y="172" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">0</text>
@@ -28,5 +28,5 @@
         fill="#FFFFFF" text-anchor="end">10</text>
   <text x="25" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Contribuições (ano)</text>
   <text x="435" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">309</text>
+        fill="#FFFFFF" text-anchor="end">360</text>
 </svg>
