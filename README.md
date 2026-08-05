@@ -96,7 +96,7 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 
 </div>
 
-<sub>Os dois primeiros cards são gerados por [um script próprio](scripts/gerar-cards.mjs) e atualizados todo dia por [GitHub Actions](.github/workflows/atualizar-cards.yml) — sem depender de serviço externo que sai do ar.</sub>
+<sub>Os dois primeiros cards são gerados por [um script próprio](scripts/gerar-cards.mjs) e redesenhados todo dia por [GitHub Actions](.github/workflows/atualizar-cards.yml) — sem depender de serviço externo que sai do ar. O commit diário é assinado pelo `github-actions[bot]`, não por mim: o gráfico de contribuições aí em cima é só trabalho de verdade.</sub>
 
 <br>
 
