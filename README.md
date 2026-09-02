@@ -101,11 +101,11 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=madeiragab&bg_color=0A0A0A&color=FFFFFF&line=FF2E3F&point=FFFFFF&area=true&area_color=FF2E3F&hide_border=false&border_color=2A2A2A&custom_title=Atividade%20de%20contribui%C3%A7%C3%B5es" width="98%" alt="Gráfico de atividade" />
+<img src="./assets/activity.svg" width="98%" alt="Gráfico de atividade de contribuições" />
 
 </div>
 
-<sub>Os dois primeiros cards são gerados por [um script próprio](scripts/gerar-cards.mjs) e redesenhados todo dia por [GitHub Actions](.github/workflows/atualizar-cards.yml) — sem depender de serviço externo que sai do ar. O commit diário é assinado pelo `github-actions[bot]`, não por mim: o gráfico de contribuições aí em cima é só trabalho de verdade.</sub>
+<sub>Os três cards acima são gerados por [um script próprio](scripts/gerar-cards.mjs) e redesenhados todo dia por [GitHub Actions](.github/workflows/atualizar-cards.yml) — sem depender de serviço externo que sai do ar. O commit diário é assinado pelo `github-actions[bot]`, não por mim: o gráfico de contribuições aí em cima é só trabalho de verdade.</sub>
 
 <br>
 

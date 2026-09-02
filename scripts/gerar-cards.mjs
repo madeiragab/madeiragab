@@ -42,7 +42,10 @@ const query = `
         totalPullRequestContributions
         totalIssueContributions
         totalRepositoriesWithContributedCommits
-        contributionCalendar { totalContributions }
+        contributionCalendar {
+          totalContributions
+          weeks { contributionDays { date contributionCount } }
+        }
       }
       repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
         totalCount
@@ -140,6 +143,13 @@ const TEXTOS = {
       aria: `Linguagens mais usadas por ${USER}`,
       titulo: 'linguagens mais usadas',
     },
+    atividade: {
+      aria: `Atividade de contribuições de ${USER} no último ano`,
+      titulo: 'atividade de contribuições',
+      total: 'no último ano',
+      pico: 'pico',
+      meses: ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'],
+    },
   },
   en: {
     stats: {
@@ -155,6 +165,13 @@ const TEXTOS = {
     langs: {
       aria: `Most used languages by ${USER}`,
       titulo: 'most used languages',
+    },
+    atividade: {
+      aria: `Contribution activity of ${USER} over the last year`,
+      titulo: 'contribution activity',
+      total: 'in the last year',
+      pico: 'peak',
+      meses: ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'],
     },
   },
 };
@@ -209,9 +226,81 @@ ${linguas.map((l, i) => {
 /* ---------- grava ---------- */
 await mkdir('assets', { recursive: true });
 
+
+/* ---------- card 3: atividade ao longo do ano ----------
+   Substitui o github-readme-activity-graph, que passou a responder
+   402 (a conta do servico estourou o limite) e deixava a imagem
+   quebrada no perfil. Mesmo motivo dos outros dois cards: servico
+   externo que cai leva o perfil junto. */
+const DIAS = cc.contributionCalendar.weeks
+  .flatMap(w => w.contributionDays)
+  .map(d => ({ date: d.date, count: d.contributionCount }));
+
+function cardAtividade(t) {
+  const L = 880, A = 200;
+  const pad = { t: 62, r: 25, b: 30, l: 25 };
+  const gw = L - pad.l - pad.r;
+  const gh = A - pad.t - pad.b;
+
+  const max = Math.max(1, ...DIAS.map(d => d.count));
+  const n = DIAS.length;
+  const X = i => pad.l + (i / (n - 1)) * gw;
+  const Y = v => pad.t + gh - (v / max) * gh;
+
+  // Linha suavizada por media movel de 3 dias: o dado cru vira serrote
+  // em 880px de largura e esconde a tendencia.
+  const suave = DIAS.map((d, i) => {
+    const a = DIAS[Math.max(0, i - 1)].count;
+    const b = d.count;
+    const c = DIAS[Math.min(n - 1, i + 1)].count;
+    return (a + b + c) / 3;
+  });
+
+  const linha = suave.map((v, i) => `${i ? 'L' : 'M'}${X(i).toFixed(1)} ${Y(v).toFixed(1)}`).join(' ');
+  const area = `${linha} L${X(n - 1).toFixed(1)} ${pad.t + gh} L${X(0).toFixed(1)} ${pad.t + gh} Z`;
+
+  // Rotulo de mes sempre que o mes vira
+  let mesAnterior = null;
+  const meses = DIAS.map((d, i) => {
+    const m = Number(d.date.slice(5, 7)) - 1;
+    if (m === mesAnterior) return '';
+    mesAnterior = m;
+    if (i < 8 || i > n - 8) return '';
+    return `<text x="${X(i).toFixed(1)}" y="${A - 10}" font-family="${FONTE}" font-size="10"
+            fill="${C.dim}" text-anchor="middle">${t.meses[m]}</text>`;
+  }).join('');
+
+  const iPico = DIAS.reduce((best, d, i) => (d.count > DIAS[best].count ? i : best), 0);
+  const total = cc.contributionCalendar.totalContributions;
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${L}" height="${A}" viewBox="0 0 ${L} ${A}" role="img" aria-label="${esc(t.aria)}">
+  ${moldura(L, A, t.titulo)}
+  <defs>
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${C.red}" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="${C.red}" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <text x="${L - 25}" y="35" font-family="${FONTE}" font-size="13" fill="${C.dim}"
+        text-anchor="end">${total} ${esc(t.total)} &#183; ${esc(t.pico)} ${DIAS[iPico].count}</text>
+  <line x1="${pad.l}" y1="${pad.t + gh}" x2="${L - pad.r}" y2="${pad.t + gh}"
+        stroke="${C.border}" stroke-width="1"/>
+  <line x1="${pad.l}" y1="${pad.t + gh / 2}" x2="${L - pad.r}" y2="${pad.t + gh / 2}"
+        stroke="${C.border}" stroke-width="1" stroke-dasharray="3 5" opacity="0.6"/>
+  <path d="${area}" fill="url(#areaGrad)"/>
+  <path d="${linha}" fill="none" stroke="${C.red}" stroke-width="2"
+        stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="${X(iPico).toFixed(1)}" cy="${Y(suave[iPico]).toFixed(1)}" r="3.5"
+          fill="${C.text}" stroke="${C.red}" stroke-width="2"/>
+  ${meses}
+</svg>`;
+}
+
 await writeFile('assets/stats.svg', cardStats(TEXTOS.pt.stats));
 await writeFile('assets/languages.svg', cardLangs(TEXTOS.pt.langs));
 await writeFile('assets/stats.en.svg', cardStats(TEXTOS.en.stats));
 await writeFile('assets/languages.en.svg', cardLangs(TEXTOS.en.langs));
+await writeFile('assets/activity.svg', cardAtividade(TEXTOS.pt.atividade));
+await writeFile('assets/activity.en.svg', cardAtividade(TEXTOS.en.atividade));
 
-console.log(`OK — ${stars} estrelas, ${cc.totalCommitContributions} commits, ${linguas.length} linguagens. 4 cards gravados (pt + en).`);
+console.log(`OK — ${stars} estrelas, ${cc.totalCommitContributions} commits, ${linguas.length} linguagens. 6 cards gravados (pt + en).`);
