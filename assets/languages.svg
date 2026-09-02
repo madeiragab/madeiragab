@@ -11,34 +11,34 @@
   <text x="25" y="35" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="16" font-weight="700"
         fill="#FF2E3F">linguagens mais usadas</text>
   <rect x="25" y="45" width="34" height="2.5" rx="1.25" fill="#FF2E3F"/>
-  <text x="25" y="76" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">JavaScript</text>
+  <text x="25" y="76" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">HTML</text>
   <text x="435" y="76" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
-        text-anchor="end">41.7%</text>
+        text-anchor="end">69.8%</text>
   <rect x="25" y="83" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="83" width="171.0" height="7" rx="3.5" fill="#f1e05a"/>
-  <text x="25" y="110" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">HTML</text>
+  <rect x="25" y="83" width="286.0" height="7" rx="3.5" fill="#e34c26"/>
+  <text x="25" y="110" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">Python</text>
   <text x="435" y="110" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
-        text-anchor="end">34.8%</text>
+        text-anchor="end">15.0%</text>
   <rect x="25" y="117" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="117" width="142.7" height="7" rx="3.5" fill="#e34c26"/>
-  <text x="25" y="144" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">CSS</text>
+  <rect x="25" y="117" width="61.5" height="7" rx="3.5" fill="#3572A5"/>
+  <text x="25" y="144" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">Rust</text>
   <text x="435" y="144" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
-        text-anchor="end">10.1%</text>
+        text-anchor="end">6.8%</text>
   <rect x="25" y="151" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="151" width="41.6" height="7" rx="3.5" fill="#663399"/>
-  <text x="25" y="178" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">Python</text>
+  <rect x="25" y="151" width="27.8" height="7" rx="3.5" fill="#dea584"/>
+  <text x="25" y="178" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">JavaScript</text>
   <text x="435" y="178" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
-        text-anchor="end">7.7%</text>
+        text-anchor="end">3.6%</text>
   <rect x="25" y="185" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="185" width="31.7" height="7" rx="3.5" fill="#3572A5"/>
-  <text x="25" y="212" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">Rust</text>
+  <rect x="25" y="185" width="14.6" height="7" rx="3.5" fill="#f1e05a"/>
+  <text x="25" y="212" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">GDScript</text>
   <text x="435" y="212" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
-        text-anchor="end">3.4%</text>
+        text-anchor="end">2.5%</text>
   <rect x="25" y="219" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="219" width="13.9" height="7" rx="3.5" fill="#dea584"/>
-  <text x="25" y="246" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">GDScript</text>
+  <rect x="25" y="219" width="10.4" height="7" rx="3.5" fill="#355570"/>
+  <text x="25" y="246" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12.5" fill="#FFFFFF">CSS</text>
   <text x="435" y="246" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="12" fill="#9A9A9A"
         text-anchor="end">1.2%</text>
   <rect x="25" y="253" width="410" height="7" rx="3.5" fill="#1A1A1A"/>
-  <rect x="25" y="253" width="4.8" height="7" rx="3.5" fill="#355570"/>
+  <rect x="25" y="253" width="5.1" height="7" rx="3.5" fill="#663399"/>
 </svg>
