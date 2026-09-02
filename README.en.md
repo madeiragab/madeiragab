@@ -1,6 +1,6 @@
 > 🇧🇷 [Português](README.md) · 🇬🇧 **English**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:C1121F,100:FF2E3F&height=200&section=header&text=Gabriel%20Madeira&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Backend%20Developer%20%C2%B7%20Django%20%C2%B7%20PostgreSQL%20%C2%B7%20REST%20APIs&descSize=17&descAlignY=57" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:C1121F,100:FF2E3F&height=200&section=header&text=Gabriel%20Madeira&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Backend%20%C2%B7%20Django%20%C2%B7%20FastAPI%20%C2%B7%20PostgreSQL%20%C2%B7%20Rust&descSize=17&descAlignY=57" width="100%" />
 
 # <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hello World!
 
@@ -12,7 +12,7 @@ I'm **Gabriel Madeira**, a **Computer Science** student at IFSulDeMinas speciali
 - 💼 **Currently:** scholarship intern at the Computer Networks Laboratory (IFSulDeMinas — Muzambinho Campus), on a project to bring a long-abandoned lab back into operation
 - 🎯 **Goal:** Backend Development · REST APIs · Integrations
 - 🧠 **Focus:** Domain modeling, Django, PostgreSQL and technical documentation
-- 🔍 **Curiosity:** I've built a Pygame game, an AI simulator in Godot, and reverse-engineered a handheld console
+- 🔍 **Curiosity:** I wrote a database from scratch in Rust, a system that measures whether the stock market can be predicted, a Pygame game, an AI simulator in Godot, and reverse-engineered a handheld console
 - 🤖 **Day to day:** I use AI as a working tool, always reviewing what comes out of it
 - 🌎 **Languages:** English (Advanced) | Spanish (Basic)
 
@@ -24,15 +24,19 @@ I'm **Gabriel Madeira**, a **Computer Science** student at IFSulDeMinas speciali
 
 ### ⚙️ Back-End &amp; Databases
 
-<img src="https://skillicons.dev/icons?i=python,django,postgres,sqlite,nodejs&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,django,fastapi,postgres,sqlite,nodejs&theme=dark" />
+
+### 🦀 Systems &amp; Data
+
+<img src="https://skillicons.dev/icons?i=rust,sklearn,docker&theme=dark" />
 
 ### 💻 Front-End
 
-<img src="https://skillicons.dev/icons?i=js,react,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind&theme=dark" />
 
 ### 🔧 Development Tools
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,godot&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,linux,godot&theme=dark" />
 
 </div>
 
@@ -42,6 +46,9 @@ I'm **Gabriel Madeira**, a **Computer Science** student at IFSulDeMinas speciali
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[Lastro](https://github.com/madeiragab/lastro)** | Embedded relational database written from scratch in Rust: cached pager, B+Tree, WAL with crash recovery, SQL parser and MVCC. No ORM and no SQLite underneath — the point is understanding what a database does when the process dies mid-commit. | `Rust` `B+Tree` `WAL` |
+| **[market-direction](https://github.com/madeiragab/market-direction)** [![demo](https://img.shields.io/badge/demo-FF2E3F?style=flat-square&logo=googlechrome&logoColor=white)](https://madeiragab.github.io/market-direction/) | Predicts whether each stock rises or falls on the next session, on B3 and the S&P 500 — and measures whether that prediction is worth believing. Walk-forward with an embargo, a leakage audit that runs as a test, transaction cost inside the backtest. The honest answer: 50.60% accuracy in Brazil, nothing in the US, and it never beats buy and hold. | `Python` `scikit-learn` `LightGBM` `pandas` |
+| **[Ascension of the Demigods](https://github.com/madeiragab/ascensao-dos-semideuses)** [![demo](https://img.shields.io/badge/demo-FF2E3F?style=flat-square&logo=googlechrome&logoColor=white)](https://madeiragab.github.io/ascensao-dos-semideuses/) | Original tabletop RPG with a player handbook, bestiary and a balancing simulator: 40,000 fights run to find out that control builds lose in a duel. | `Python` `Game design` `HTML` |
 | **[Rastro](https://github.com/madeiragab/rastro)** [![ci](https://github.com/madeiragab/rastro/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/madeiragab/rastro/actions/workflows/ci.yml) | Tracking and geofencing for cattle herds. Alerts when an animal leaves the pasture, stops moving for too long, or loses connectivity. 124 tests against real PostGIS in CI, Argon2id with refresh-token rotation, built-in simulator — runs with no hardware at all. | `FastAPI` `PostGIS` `TypeScript` `Docker` |
 | **[GEICIS Ponto](https://github.com/madeiragab/geicis-ponto)** [![ci](https://github.com/madeiragab/geicis-ponto/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/madeiragab/geicis-ponto/actions/workflows/ci.yml) | Internship time tracking: ranking, weekly minimum, and an email alert every Friday. Domain and API contract settled in `docs/` before the first line of code. 58 tests in CI. | `Django` `DRF` `React` |
 | **[Tactical AI Simulator](https://github.com/madeiragab/tcc-simulador-ia)** | Thesis: an environment to measure the strategic quality of AI agents — not just whether they win, but how much computation they spend. 14,000+ matches with significance testing. | `Godot` `GDScript` `Python` |
