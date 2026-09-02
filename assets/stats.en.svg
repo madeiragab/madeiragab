@@ -13,10 +13,10 @@
   <rect x="25" y="45" width="34" height="2.5" rx="1.25" fill="#FF2E3F"/>
   <text x="25" y="82" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Stars earned</text>
   <text x="435" y="82" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">19</text>
+        fill="#FFFFFF" text-anchor="end">20</text>
   <text x="25" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Commits (last year)</text>
   <text x="435" y="112" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">363</text>
+        fill="#FFFFFF" text-anchor="end">395</text>
   <text x="25" y="142" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Pull requests</text>
   <text x="435" y="142" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
         fill="#FFFFFF" text-anchor="end">22</text>
@@ -25,8 +25,8 @@
         fill="#FFFFFF" text-anchor="end">0</text>
   <text x="25" y="202" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Public repositories</text>
   <text x="435" y="202" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">11</text>
+        fill="#FFFFFF" text-anchor="end">15</text>
   <text x="25" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="13" fill="#9A9A9A">Contributions (year)</text>
   <text x="435" y="232" font-family="'JetBrains Mono','Cascadia Code',Consolas,ui-monospace,monospace" font-size="15" font-weight="700"
-        fill="#FFFFFF" text-anchor="end">437</text>
+        fill="#FFFFFF" text-anchor="end">470</text>
 </svg>
