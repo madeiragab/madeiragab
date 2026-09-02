@@ -74,6 +74,9 @@ Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no I
 <a href="https://madeiragab.github.io">
   <img src="https://img.shields.io/badge/PORTF%C3%93LIO-FF2E3F?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
+<a href="https://madeiragab.github.io/curriculo.html">
+  <img src="https://img.shields.io/badge/CURR%C3%8DCULO-0A0A0A?style=for-the-badge&logo=readdotcv&logoColor=FF2E3F" />
+</a>
 <a href="https://www.linkedin.com/in/gabriel-madeira-b19100209/">
   <img src="https://img.shields.io/badge/LINKEDIN-FF2E3F?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
