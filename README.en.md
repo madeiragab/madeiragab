@@ -74,6 +74,9 @@ I'm **Gabriel Madeira**, a **Computer Science** student at IFSulDeMinas speciali
 <a href="https://madeiragab.github.io">
   <img src="https://img.shields.io/badge/PORTFOLIO-FF2E3F?style=for-the-badge&logo=googlechrome&logoColor=white" />
 </a>
+<a href="https://madeiragab.github.io/resume.html">
+  <img src="https://img.shields.io/badge/RESUME-0A0A0A?style=for-the-badge&logo=readdotcv&logoColor=FF2E3F" />
+</a>
 <a href="https://www.linkedin.com/in/gabriel-madeira-b19100209/">
   <img src="https://img.shields.io/badge/LINKEDIN-FF2E3F?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
