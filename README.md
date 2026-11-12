@@ -2,8 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:C1121F,100:FF2E3F&height=200&section=header&text=Gabriel%20Madeira&fontSize=54&fontColor=FFFFFF&fontAlignY=36&desc=Backend%20%C2%B7%20Django%20%C2%B7%20FastAPI%20%C2%B7%20PostgreSQL%20%C2%B7%20Rust&descSize=17&descAlignY=57" width="100%" />
 
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hello World!
-
 ## <img src="https://img.shields.io/badge/-informational?style=flat-square&color=FF2E3F" height="18"> Sobre mim:
 
 Me chamo **Gabriel Madeira**, sou estudante de **Ciência da Computação** no IFSulDeMinas e me especializo em **desenvolvimento backend**. Construo sistemas funcionais, MVPs e APIs bem modeladas — com a regra de negócio no servidor, documentada e testável.
